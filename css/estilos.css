@@ -1,3 +1,177 @@
 body{
-    background: #eb4d4b
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+    width: 1000px;
+    margin: 0 auto;
 }
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: 400;
+}
+
+h1{
+    font-size: 40px;
+    line-height: 1.5em;
+    letter-spacing: -.2px;
+    color: white;
+    margin: 0%;
+    /*text-transform: uppercase;*/
+    /*text-decoration: underline;*/
+}
+.project{
+    border:gray;
+    border-radius: 10px;
+}
+h1 strong{
+    color: #026fff;
+    line-height: 1.5;
+    letter-spacing: -.2px;
+    margin: 100px 150px 70px 30px;
+}
+.hero{
+    height: 300px;
+    background-image: url('../images/android-chrome-512x512.png');
+    display: flex;
+    background-color: #1b2127;
+    background-size: 500px 300px;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    display: flex;
+    align-items: center;
+}
+.project-details{
+    background: white;
+    width: 500px;
+    border:1px solid gray;
+    border-radius: 10px;
+    /*margin: 10PX;*/
+    margin-bottom: 15px;
+    padding: 20PX;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+figure{
+    margin: 0;
+}
+
+.portfolio{
+    background: #fafafa;
+    padding: 20px;
+}
+
+h2 {
+    color: #026fff;
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro';
+    font-weight: bold;
+}
+
+.header{
+    background-color:#1b2127;
+    color: white;
+    display: flex;
+    height: 70px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header ol li{
+    height: inherit;
+    display: flex;
+    align-items: center;
+}
+
+.menu{
+    height: inherit;
+}
+
+.header ol{
+    display: flex;
+    height: inherit;
+}
+
+.header a{
+    color: blue;
+    text-decoration: none;
+    display: flex;
+    height: inherit;
+    padding: 0 10px;
+}
+
+.flexbox{
+    display:flex;
+}
+
+.box{
+    width:200px;
+    height: 200px;
+    border: 1px solid red;
+}
+
+.footer{
+    background-color: #1b2127;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contact{
+    background-color: #056fff;
+    color: ehite;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.social{
+
+}
+
+.social-link{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 0 10px;
+    background-size: 50px 50px;
+}
+
+
+.social-link.twitter{
+    background-image: url('../images/iconmonstr-twitter-1.png'); 
+}
+
+.social-link.instagram{
+    background-image: url('../images/iconmonstr-instagram-11.png');
+
+}
+.social-link.github{
+    background-image: url('../images/GitHub-Mark.png');  
+  
+}
+
+.form-email input{
+border-color: gray;
+padding: 20px;
+border-style: solid;
+padding: 10px 20px 10px 25px;
+}
+
+.form-email h3{
+    font-family: 'Source Sans Pro';
+}
+
+
+
